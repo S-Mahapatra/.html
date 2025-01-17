@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Form</title>
+    <link rel="stylesheet" href="Contact_Me.css">
+</head>
+<body>
+    <h1>
+        <b class="head">CONTACT ME</b>
+    </h1>
+    <main>
+        <form>
+            <label for="Email">Email: </label>
+            <input type="text" id="Email"><br>
+            <label for="Name">Name: </label>
+            <input type="text" id="Name" placeholder="Enter your name"><br>
+            <label for="age">Age: </label>
+            <input type="number" id="age"><br>
+            <label for="Date">Date of Birth: </label>
+            <input type="date" id="Date"><br>
+            <header>
+                <b>Gender</b>
+            </header>
+            <div class="gender">
+            <label for="Male">Male: </label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Female">Female: </label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Other">Other: </label>
+            <input type="radio" name="gender" id="Other" value="Other"><br>
+        </div>
+            <header>
+                <b>Country</b>
+            </header>
+            <Select>
+                <option value="India">India</option>
+                <option value="US">US</option>
+                <option value="Russia">Russia</option>
+                <option value="Australia">Australia</option>
+                <option value="China">China</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Italy">Italy</option>
+            </Select><br>
+            <header>
+                <b>Religion</b>
+            </header>
+            <select>
+                <option value="Hindu">Hindu</option>
+                <option value="Islam">Islam</option>
+                <option value="Christian">Christian</option>
+                <option value="Other">Other</option>
+            </select><br>
+            <header>
+                <b>Hobby</b>
+            </header>
+            <div class="hobby">
+            <label for="Cricket">Cricket</label>
+            <input type="checkbox" name="Hobby" id="Cricket" value="Cricket">
+            <label for="Football">Football</label>
+            <input type="checkbox" name="Hobby" id="Football" value="Football">
+            <label for="Rugby">Rugby</label>
+            <input type="checkbox" name="Hobby" id="Rugby" value="Rugby">
+            <label for="Others">Other</label>
+            <input type="checkbox" name="Hobby" id="Others" value="Others"><br>
+        </div>
+            <header>
+                <b>About Yourself</b>
+            </header>
+            <textarea name="About" cols="30" rows="7"></textarea><br>
+            <div class="btn">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
